@@ -1,0 +1,29 @@
+.order-total-parent {
+  font-family: "Poppins", sans-serif;
+  width: 25%;
+  border: 1px solid #e5ebf1;
+  border-radius: 12px;
+  margin: 25px auto;
+  padding: 15px 15px;
+  background: #f5f5f6;
+}
+
+.amount-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.amount-container:not(last-child) {
+  margin-bottom: 25px;
+}
+
+hr {
+  border: 1px solid #e5ebf1;
+  margin: 25px 0;
+}
+
+.total-container {
+  display: flex;
+  justify-content: space-between;
+}
